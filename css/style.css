@@ -11,6 +11,9 @@ header {
     height: 50px;
 }
 
+
+/* Девіз і 2 кнопки */
+
 #motto {
     background-image: url(../img/diviz.jpg);
     height: 300px;
@@ -18,37 +21,78 @@ header {
     background-repeat: no-repeat;
 }
 
-#motto .filter h2 {
-    text-align: center;
-    color: white;
-}
-
-#motto .filter div {
-    margin: 0% 0% 30% 30%;
-}
-
-#motto .filter div button {
-    width: 20%;
-    margin-left: 5%;
-}
-
-#motto .filter .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
 #motto .filter {
     background-color: rgba(20, 20, 20, 0.5);
     height: 100%;
 }
 
+#motto .filter a.btn-outline-success {
+    background-color: #28a745;
+    color: white;
+}
+
+#motto .filter a.btn-outline-success:hover {
+    background-color: #1c7932;
+    transition-duration: 0.2s;
+}
+
+#motto .filter a.btn-outline-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+#motto .filter a.btn-outline-danger:hover {
+    background-color: #9c1c29;
+    transition-duration: 0.2s;
+}
+
+#motto .filter .header-content-wrap .container .buttons {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#motto .filter .header-content-wrap .container .buttons .button {
+    display: inline-block !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 35px 10px 35px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#motto .filter .header-content-wrap .container .buttons .custom-button {
+    display: inline-block !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 55px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.deviz {
+    text-align: center;
+    color: white;
+    line-height: 65px;
+    z-index: 0;
+    text-transform: uppercase;
+    font-size: 55px;
+    float: none;
+}
+
+
+/* Девіз і 2 кнопки */
+
+
 /*Професії*/
-.prof{
+
+.prof {
     margin: 0;
     height: 20%;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: aquamarine;
     margin: 0;
     margin-left: 0 auto;
@@ -56,18 +100,21 @@ header {
     padding-right: 15px;
     overflow: hidden;
 }
-.section-header{
+
+.section-header {
     text-align: center;
     padding-bottom: 75px;
     font-size: 25px;
 }
-.prof .row{
+
+.prof .row {
     float: left;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
 }
-.profile-pic{
+
+.profile-pic {
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -75,7 +122,8 @@ header {
     overflow: hidden;
     margin-bottom: 25px;
 }
-.details{
+
+.details {
     position: relative;
     margin-top: 15px;
     font-size: 17px;
@@ -84,4 +132,6 @@ header {
     text-align: center;
     overflow: hidden;
 }
+
+
 /**/
