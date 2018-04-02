@@ -42,3 +42,46 @@ header {
     background-color: rgba(20, 20, 20, 0.5);
     height: 100%;
 }
+
+/*Професії*/
+.prof{
+    margin: 0;
+    height: 20%;
+}
+.container-fluid{
+    background-color: aquamarine;
+    margin: 0;
+    margin-left: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.section-header{
+    text-align: center;
+    padding-bottom: 75px;
+    font-size: 25px;
+}
+.prof .row{
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.details{
+    position: relative;
+    margin-top: 15px;
+    font-size: 17px;
+    position: relative;
+    padding-bottom: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+/**/
