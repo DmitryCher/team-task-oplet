@@ -216,3 +216,28 @@
 .footer .fa-facebook-square {
     color: #4267B2;    
 }   
+
+/*навчально-виховна робота*/
+
+.base {
+   margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    
+}
+
+article.base p {
+    font-size: 0.8rem;
+    text-align: left;
+
+}
+
+article.base div.nvb {
+   float: left;
+}
+
+/*навчально-виховна робота*/
+
+/*Календар*/
+
+/*Календар*/
