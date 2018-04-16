@@ -7,6 +7,46 @@
     background-color: #F8F9FA;
 }
 
+/* Загальний блок div */
+
+.main-index { 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 300px; 
+    background-color: rgba(20, 20, 20, 0.4);
+}
+
+@media (max-width:991.98px) {    
+    .main-index {
+        padding-top:100px;
+    }
+
+    .main {
+    padding: 50px 0 20px;
+    }
+
+    .my-navbar {
+        position:static; 
+        padding: 0; 
+              
+    }
+    .nav-header {
+        padding: 0 20px;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+        background-color: #F8F9FA;
+    }
+} 
+
+@media (min-width: 991.98px) { 
+    .main {
+    padding: 220px 0 20px;
+    }
+}
+
 .my-navbar-toggler {   
     margin: 10px 0 0 0;
     padding-right: 0;
@@ -88,22 +128,8 @@
     left: 0;
 }
 
-/* Загальний блок div */
-
-.main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 /* Девіз і 2 кнопки */
-
-#motto {
-    padding: 285px 0 210px;
-    background-color: rgba(20, 20, 20, 0.4);
-}
 
 #motto a.btn-outline-success {
     background-color: #28a745;
@@ -155,6 +181,7 @@
 
 #prof{
     margin: 0;
+    padding-top: 200px;
 }
 
 .container-prof{
@@ -253,8 +280,6 @@
 }
 
 
-
-
 /* Footer */
 
 .footer {
@@ -315,27 +340,38 @@
     color: #4267B2;    
 }   
 
-/*навчально-виховна робота*/
-
-.base {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 15%;
-    
-}
+/*навчально-матеріальна база*/
 
 article.base p {
-    font-size: 0.8rem;
     text-align: left;
-
 }
 
 article.base div.nvb {
    float: left;
 }
 
-/*навчально-виховна робота*/
+/*навчально-матеріальна база*/
 
 /*Календар*/
 
 /*Календар*/
+
+/* Entrance rules */
+
+.rules h2, .rules h3 {
+    /*text-transform: uppercase;*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rules p{
+    text-align: justify;
+}
+
+.rules ol{
+    margin-bottom: 20px;
+}
+
+.rules ul{
+    list-style-type: disc;
+}
