@@ -461,3 +461,24 @@ article.base div.nvb {
 article.contacts {
     margin-top: 15%;
 }
+
+/*стилі для оголошення*/
+.marq1{
+    font-size: 10pt;
+    color: red;
+}
+.marq2{
+    color:#4e3f76;
+    font-size: 10pt;
+}
+.foto-adv{
+    width: 400px;
+    height: 250px;
+    
+}
+.textmain{
+    text-align: center;
+    color: #4e3f76;
+}
+
+/**/
