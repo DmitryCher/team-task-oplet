@@ -418,6 +418,7 @@ article.base div.nvb {
     text-align: center;
     font-style: italic;
     font-size: 10pt;
+    margin: 1em;
 }
 
 .fig-right {
@@ -431,8 +432,9 @@ article.base div.nvb {
 }
 
 .fig figcaption {
-    margin: 0;
+    margin: 1em;
 }
+
 
 
 /* Відео */
