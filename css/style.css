@@ -389,12 +389,13 @@ article.base div.nvb {
 /* зворотній зв"зок*/
 
 .contact-form {
-    margin: 3em 0;
+    margin: 3em;
     display: block;
 }
 
 .fon {
     background-color: #686868;
+    padding: 10px;
 }
 
 
