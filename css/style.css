@@ -412,6 +412,10 @@ article.base div.nvb {
     font-weight: bold;
 }
 
+.img-achievements {
+    margin: 5px;
+}
+
 
 /* форматування картинок */
 
@@ -435,7 +439,6 @@ article.base div.nvb {
 .fig figcaption {
     margin: 1em;
 }
-
 
 
 /* Відео */
@@ -462,23 +465,46 @@ article.contacts {
     margin-top: 15%;
 }
 
+
 /*стилі для оголошення*/
-.marq1{
+
+.marq1 {
     font-size: 10pt;
     color: red;
 }
-.marq2{
-    color:#4e3f76;
+
+.marq2 {
+    color: #4e3f76;
     font-size: 10pt;
 }
-.foto-adv{
+
+.foto-adv {
     width: 400px;
     height: 250px;
-    
 }
-.textmain{
+
+.textmain {
     text-align: center;
     color: #4e3f76;
 }
+
+
+/*achievements форматування тексту і маркерів списку*/
+
+.li-mark {
+    list-style-type: none;
+    /* Убираем маркеры у списка */
+}
+
+.li-mark:before {
+    content: "– ";
+    /* Добавляем в качестве маркера символ */
+}
+
+.p-indentation {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
 
 /**/
