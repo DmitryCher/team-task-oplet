@@ -1,3 +1,7 @@
+#navbar-scroll {  
+  transition: top 0.4s;
+}
+
 .my-navbar {
     display: inline !important;
     padding-bottom: 0;
@@ -433,6 +437,11 @@ article.base div.nvb {
     margin: 1em;
 }
 
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Відео */
 
@@ -570,3 +579,80 @@ article.contacts {
 
 
 /* MEDIA */
+
+/* Gallery*/
+
+.gal-header h2 {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.gal-header h4 {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.gal-header span {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #5A5A5A;
+}
+
+.thumbnail {
+    margin: 0;
+}
+
+.gallery .thumbnail img{
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.gallery .thumbnail img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.gallery .photo img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+.gallery .photo img:hover {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gal_about a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.gal_about a:hover {
+    text-decoration: none;
+    color: #008CBA;
+}
+
+.gal_about p {
+    font-size: 0.8rem;
+    margin-top: 10px; 
+    color: #5A5A5A;
+}
