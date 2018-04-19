@@ -74,9 +74,15 @@
                             <a class="dropdown-item my-dropdown-item" href="#">Бібліотека</a>
                         </div>
                     </li>
-                    <li class="nav-item my-auto">
+                    <li class="nav-item dropdown my-auto">
                         <div class="dropdown-divider d-lg-none"></div>
-                        <a class="nav-link my-nav-link" href="achievements.html">Наші досягнення</a>
+                        <a class="nav-link my-nav-link dropdown-toggle" href="#" id="uspihDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Наші досягнення
+                                </a>
+                        <div class="dropdown-menu my-dropdown-menu" aria-labelledby="uspihDropdown">
+                            <a class="dropdown-item my-dropdown-item" href="#">Олімпіади</a>
+                            <a class="dropdown-item my-dropdown-item" href="#">Конкурси</a>
+                            <a class="dropdown-item my-dropdown-item" href="#">Спорт</a>
+                        </div>
                     </li>
                     <li class="nav-item my-auto">
                         <div class="dropdown-divider d-lg-none"></div>
@@ -104,7 +110,7 @@
                         <h4>Якщо у вас виникли питання, а запитатися особисто немає змоги, то наша команда зможе своєчасно відповісти на усі запитання в режимі ONLINE.</h4>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <img src="img/contact.png" alt="contact us">
+                        <img style="width:100%;" src="img/contact.png" alt="contact us">
                     </div>
                 </div>
             </div>
@@ -118,45 +124,42 @@
                 <div class="row">
 
                     <div class="col-md-2 col-sm-12">
-                        <h2>Адреса</h2>
+                        <h2 style="text-align:center">Адреса</h2>
                         <br>
                         <p>вул. Січових Стрільців, 10 <br> смт. Отинія, 78223 <br> Коломийський р-н <br> Івано-Франківська обл.</p>
                     </div>
 
                     <div class="col-md-5 col-sm-12">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.1100098604411!2d24.8622499043145!3d48.7425594970483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730d7302b0e40d5%3A0xee04d4040c723abe!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwg0J7RgtC40L3RltGPLCDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc4MjIz!5e0!3m2!1suk!2sua!4v1523992200028"
+                        <h2 style="text-align:center"> Ми на карті </h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.2421713759536!2d24.86027221512966!3d48.73907057927599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730d72f64fafaaf%3A0x4f926fffb3ade70!2sOPLET!5e0!3m2!1suk!2sua!4v1524160943498"
                             width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
 
-                    <div class="col-md-5 col-sm-12">
-                        <div>
-                            <div class="container">
-                                <h4 class="offset-md-2">Відправити повідомлення</h4>
-                                <form name="form1" id="ff" method="post" action="contact.php">
-                                    <div class="row">
-                                        <div class="offset-md-2 col-lg-8 col-md-8 col-sm-12 right">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control form-control-lg" placeholder="І'мя" name="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control form-control-lg" placeholder="Ваш Em@il" name="email">
-                                            </div>
-                                        </div>
-                                        <div class="offset-md-2 col-lg-8 col-md-8 col-sm-12 right">
-                                            <div class="form-group">
-                                                <textarea name="" id="" class="form-control" rows="4" cols="25" required="required" placeholder=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="offset-md-2 col-lg-8 col-md-8 col-sm-12 right">
-                                            <center><input class="btn  btn-outline-danger btn-lg" type="submit" name="submitcontact" value="Відправити повідомлення"></center>
-                                        </div>
-                                    </div>
-                                </form>
+                    <!---->
+
+                    <div class="col-md-5 col-sm-12 contForm">
+                        <h2 style="text-align:center">Запитання</h2>
+                        <form action="contact.php" name="contactForm" id="cF" method="POST">
+                            <div class="group-input">
+                                <span class="label"></span>
+                                <input type="name" required placeholder="Ім'я" name="name">
                             </div>
-                        </div>
+
+                            <div class="group-input">
+                                <span class="label"></span>
+                                <input type="email" required placeholder="Емейл" name="email">
+                            </div>
+
+                            <div class="group-input">
+                                <textarea name="question" id="" class="form-control" rows="4" cols="25" required="required" placeholder="Ваше запитання"></textarea>
+                            </div>
+
+                            <div class="input-button ">
+                                <input type="submit" value="Підтвердити">
+                            </div>
+                        </form>
+
                     </div>
-
-
 
                     <!--map-->
 

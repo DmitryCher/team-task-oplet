@@ -167,14 +167,13 @@
     font-size: 1.2rem;
 }
 
-.deviz {
-    text-align: center;
+.intro-text {
+    font-size: 45px;
+    line-height: 55px;
     color: white;
-    line-height: 65px;
-    z-index: 0;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
-    float: none;
+    width: auto;
 }
 
 
@@ -358,12 +357,6 @@ article.base div.nvb {
 /*навчально-матеріальна база*/
 
 
-/*Календар*/
-
-
-/*Календар*/
-
-
 /* Entrance rules */
 
 .rules h2,
@@ -465,6 +458,51 @@ article.contacts {
     margin-top: 15%;
 }
 
+.contForm form .group-input {
+    border: 1px solid red;
+}
+
+.contForm form .group-input {
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.contForm form input {
+    border: none;
+    background: none;
+}
+
+.contForm form input[type="submit"] {
+    background-color: green;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contForm form input[type="submit"]:hover {
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    transition-duration: 0.5s;
+}
+
+.contForm .group-input textarea.form-control {
+    border: none;
+    background: none;
+}
+
+.contForm form .input-button {
+    width: 80%;
+    margin: auto;
+}
+
 
 /*стилі для оголошення*/
 
@@ -507,4 +545,28 @@ article.contacts {
 }
 
 
-/**/
+/* MEDIA */
+
+@media (max-width: 767px) {
+    .intro-text {
+        font-size: 41px;
+        line-height: 49px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-text {
+        font-size: 32px;
+        line-height: 37px;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro-text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+
+/* MEDIA */
