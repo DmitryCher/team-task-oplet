@@ -1,0 +1,80 @@
+.collapse{
+    display: none;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:2rem;
+}
+
+
+.rules .news_block .date{
+    text-align: right;
+    position: static;
+    font-weight:bold;
+}
+.news_block{
+    border-bottom: groove;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.news_block .container{
+    padding-bottom: 10px;
+}
+.news_block .container img{
+    padding-bottom: 10px;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*стрілка вверх сторінки*/
+#back-top {
+    position: fixed;
+    bottom: 30px; /* відступ кнопки знизу */
+    margin-left: -100px; /* відступ кнопки зліва */
+}
+
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+/* іконка стрілки (тег span) */
+#back-top span {
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd url(http://webdesignerwall.com/demo/scroll-to-top/up-arrow.png) no-repeat center center;
+
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+
+    /* скруглені кути  */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+#back-top a:hover span {
+    background-color: #777;
+}
