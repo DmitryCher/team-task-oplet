@@ -18,7 +18,7 @@
     border-bottom: groove;
 }
 
-.list{
+ul li{
     list-style-type: none;
 }
 
