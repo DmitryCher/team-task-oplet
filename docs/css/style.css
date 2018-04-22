@@ -246,7 +246,7 @@
 }
 
 .dark-text {
-    color: #404040;
+    color: white;
 }
 
 .team-member {
@@ -272,7 +272,7 @@
 .team-member h5 {
     text-transform: uppercase;
     text-align: center;
-    color: #686868;
+    color: white;
     font-weight: 700;
     position: relative;
     margin-top: 15px;
@@ -281,7 +281,7 @@
 .team-member .position {
     font-size: 13px;
     text-align: center;
-    color: #686868;
+    color: white;
 }
 
 
