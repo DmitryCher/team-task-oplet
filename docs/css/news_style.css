@@ -1,3 +1,14 @@
+.container .photo img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
 .collapse{
     display: none;
 }
