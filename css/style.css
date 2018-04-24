@@ -1,5 +1,5 @@
 #navbar-scroll {  
-  transition: top 0.4s;
+  transition: top 1.8s;
 }
 
 .my-navbar {
@@ -197,16 +197,16 @@
     overflow: hidden;
 }
 
-.section-header {
+/*.section-header {
     text-align: center;
     padding-top: 60px;
-    font-size: 25px;
-}
+    font-size: 35px;
+}*/
 
 .line {
     margin-right: 0;
     margin-left: 0;
-    padding: 45px 0;
+   /* padding: 45px 0;*/
 }
 
 .specialty {
@@ -234,19 +234,22 @@
 
 /*Адміністрація ліцею*/
 
-.section-header h2 {
-    padding-bottom: 10px;
-    line-height: 40px;
-    position: relative;
-    display: inline-block;
-    font-size: 35px;
-    text-transform: uppercase;
-    margin-top: 15px;
-    margin-bottom: 0;
+.administration {
+    background-color: #EDF1F7; /*#FDF7F2;*/
 }
 
-.dark-text {
-    color: white;
+.section-header h2 {
+    padding-bottom: 50px;    
+    padding-top: 60px;
+    font-size: 35px;
+    line-height: 40px;
+    position: relative;
+    /*display: inline-block;*/
+    text-transform: uppercase;
+    margin: 0;
+    /*margin-top: 15px;
+    margin-bottom: 0;*/
+    text-align: center;
 }
 
 .team-member {
@@ -272,16 +275,14 @@
 .team-member h5 {
     text-transform: uppercase;
     text-align: center;
-    color: white;
     font-weight: 700;
     position: relative;
     margin-top: 15px;
 }
 
 .team-member .position {
-    font-size: 13px;
-    text-align: center;
-    color: white;
+    font-size: 14px;
+    text-align: center;    
 }
 
 
@@ -385,19 +386,31 @@ article.base div.nvb {
 
 /* зворотній зв"зок*/
 
-.contact-form {
+/*.contact-form {
     margin: 3em;
     display: block;
+}*/
+
+.fon h2{
+    padding-bottom: 40px;    
+    padding-top: 60px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
 }
 
-.fon {
-    background-color: #686868;
-    padding: 10px;
+.leftfield, .rightfield, .textfield {
+    padding-bottom: 20px;
+}
+
+.fon .button-margin {
+    margin-bottom: 60px;
+    font-size: 1rem;
 }
 
 
 /*about*/
-
 
 /*розміщення і шрифт h4 */
 
@@ -449,10 +462,14 @@ article.base div.nvb {
     height: 20%;
     background-color: transparent;
     color: white;
+    padding-bottom: 60px;
 }
 
 .video-section h2 {
     text-align: center;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .video {
@@ -577,8 +594,8 @@ article.contacts {
     }
 }
 
-
 /* MEDIA */
+
 
 /* Gallery*/
 
