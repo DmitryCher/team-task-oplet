@@ -66,15 +66,9 @@
                         <div class="dropdown-divider d-lg-none"></div>
                         <a class="nav-link my-nav-link" href="navchBaza.html">Навчально-матеріальна база</a>
                     </li>
-                    <li class="nav-item dropdown my-auto">
+                    <li class="nav-item my-auto">
                         <div class="dropdown-divider d-lg-none"></div>
-                        <a class="nav-link my-nav-link dropdown-toggle" href="#" id="vyhrobDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Виховна робота
-                        </a>
-                        <div class="dropdown-menu my-dropdown-menu" aria-labelledby="vyhrobDropdown">
-                            <a class="dropdown-item my-dropdown-item" href="#">Дозвілля</a>
-                            <a class="dropdown-item my-dropdown-item" href="#">Гуртожиток</a>
-                            <a class="dropdown-item my-dropdown-item" href="#">Бібліотека</a>
-                        </div>
+                        <a class="nav-link my-nav-link" href="hostel.html">Гуртожиток</a>                        
                     </li>
                     <li class="nav-item my-auto">
                         <div class="dropdown-divider d-lg-none"></div>
@@ -114,7 +108,8 @@
                     <p>&nbsp; Є в наявності 5 кабінетів, два з яких суміщені, 5 майстерень, 1 лабораторія, 1 маневровий майданчик для вправ з початкового водіння автомобіля. Загальна площа кабінетів 360 кв.м., загальна площа майстерень 340 кв.м., 2 лабораторії
                         загальною площею 540 кв.м., 1 маневровий майданчик площею 1.2 га. Площа на одного учня складає від 2.5 до 6.8 м.кв.</p>
                     <p>&nbsp; Для підготовки спеціалістів з професії <i> <el style="color: red;"> “Електрогазозварник; слюсар з ремонту автомобілів» </el> </i> відповідно до Державного стандарту ПТО передбачена наявність 10 навчальних кабінетів, 4-х майстерень,2
-                        лабораторій.</p>
+                        лабораторій.
+                    </p>
                     <p>&nbsp; Є в наявності 6 кабінетів, два з яких суміщені, 6 майстерень, 1 лабораторія. Загальна площа кабінетів 360 кв.м., загальна площа майстерень 340 кв.м., 2 лабораторії загальною площею 540 кв.м.. Площа на одного учня складає 2.5-6.8
                         м.кв. Комплексне матеріальне забезпечення з професії складає 78-86 % від плану.</p>
                     <p>&nbsp; Для підготовки спеціалістів з професії <i> <el style="color: red;">“Кухар; кондитер” </el> </i> відповідно до Державного стандарту ПТО передбачена наявність 6 навчальних кабінетів, 1 кухні-лабораторії з дегустаційним залом.</p>
@@ -138,116 +133,16 @@
                     <p>&nbsp; Їдальня на 220 учнів знаходиться в побутовому корпусі, який з’єднаний з навчальним корпусом перехідним коридором.</p>
                 </div>
                 <aside class="col-md-3 col-sm-12 ">
-                    <h2>Корисна інформація</h2>
-                    <ul>
+                    <h2 style="text-align: center">Корисна інформація</h2>
+                    <hr>
+                    <ul class="importInfo">
                         <li><a href="https://www.facebook.com/groups/1055883071133349">Офіційна сторінка ліцею у facebook</a></li>
                         <li><a href="https://mon.gov.ua/ua">Міністерство освіти і науки України </a></li>
 
                     </ul>
-                    <br>
 
-                    <!--!!!КАЛЕНДАР!!!-->
 
-                    <h2>Календар</h2>
-                    <style>
-                        #calendar2 {
-                            width: 100%;
-                            font: monospace;
-                            line-height: 1.2em;
-                            font-size: 15px;
-                            text-align: center;
-                        }
-                        
-                        #calendar2 thead tr:last-child {
-                            font-size: small;
-                            color: rgb(85, 85, 85);
-                        }
-                        
-                        #calendar2 thead tr:nth-child(1) td:nth-child(2) {
-                            color: rgb(50, 50, 50);
-                        }
-                        
-                        #calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
-                        #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
-                            cursor: pointer;
-                        }
-                        
-                        #calendar2 tbody td {
-                            color: rgb(44, 86, 122);
-                        }
-                        
-                        #calendar2 tbody td:nth-child(n+6),
-                        #calendar2 .holiday {
-                            color: rgb(231, 140, 92);
-                        }
-                        
-                        #calendar2 tbody td.today {
-                            background: rgb(220, 0, 0);
-                            color: #fff;
-                        }
-                    </style>
 
-                    <table id="calendar2">
-                        <thead>
-                            <tr>
-                                <td>‹
-                                    <td colspan="5">
-                                        <td>›
-                                            <tr>
-                                                <td>Пн
-                                                    <td>Вт
-                                                        <td>Ср
-                                                            <td>Чт
-                                                                <td>Пт
-                                                                    <td>Сб
-                                                                        <td>Нд
-                                                                            <tbody>
-                    </table>
-
-                    <script>
-                        function Calendar2(id, year, month) {
-                            var Dlast = new Date(year, month + 1, 0).getDate(),
-                                D = new Date(year, month, Dlast),
-                                DNlast = new Date(D.getFullYear(), D.getMonth(), Dlast).getDay(),
-                                DNfirst = new Date(D.getFullYear(), D.getMonth(), 1).getDay(),
-                                calendar = '<tr>',
-                                month = ["Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень", "Липень", "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень"];
-                            if (DNfirst != 0) {
-                                for (var i = 1; i < DNfirst; i++) calendar += '<td>';
-                            } else {
-                                for (var i = 0; i < 6; i++) calendar += '<td>';
-                            }
-                            for (var i = 1; i <= Dlast; i++) {
-                                if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
-                                    calendar += '<td class="today">' + i;
-                                } else {
-                                    calendar += '<td>' + i;
-                                }
-                                if (new Date(D.getFullYear(), D.getMonth(), i).getDay() == 0) {
-                                    calendar += '<tr>';
-                                }
-                            }
-                            for (var i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
-                            document.querySelector('#' + id + ' tbody').innerHTML = calendar;
-                            document.querySelector('#' + id + ' thead td:nth-child(2)').innerHTML = month[D.getMonth()] + ' ' + D.getFullYear();
-                            document.querySelector('#' + id + ' thead td:nth-child(2)').dataset.month = D.getMonth();
-                            document.querySelector('#' + id + ' thead td:nth-child(2)').dataset.year = D.getFullYear();
-                            if (document.querySelectorAll('#' + id + ' tbody tr').length < 6) { // чтобы при перелистывании месяцев не "подпрыгивала" вся страница, добавляется ряд пустых клеток. Итог: всегда 6 строк для цифр
-                                document.querySelector('#' + id + ' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
-                            }
-                        }
-                        Calendar2("calendar2", new Date().getFullYear(), new Date().getMonth());
-                        // переключатель минус месяц
-                        document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
-                                Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month) - 1);
-                            }
-                            // переключатель плюс месяц
-                        document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
-                            Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month) + 1);
-                        }
-                    </script>
-
-                    <!--!!!КАЛЕНДАР!!!-->
 
                 </aside>
 
