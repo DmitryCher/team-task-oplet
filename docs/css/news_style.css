@@ -1,3 +1,15 @@
+.fas fa-arrow-alt-circle-right {
+    background-image: url("/img/news/arrow-alt-circle-right.svg");
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+
+.date{
+    font-size:0.8rem;
+    font-style: italic;
+}
+
 .container .photo img {
     height: auto;
     width: 100%;
@@ -49,11 +61,11 @@ ul li{
 #back-top {
     position: fixed;
     bottom: 30px; /* відступ кнопки знизу */
-    margin-left: -100px; /* відступ кнопки зліва */
+    margin-left: 0px; /* відступ кнопки зліва */
 }
 
 #back-top a {
-    width: 108px;
+    width: 70px;
     display: block;
     text-align: center;
     font: 11px/100% Arial, Helvetica, sans-serif;
@@ -70,8 +82,8 @@ ul li{
 
 /* іконка стрілки (тег span) */
 #back-top span {
-    width: 108px;
-    height: 108px;
+    width: 70px;
+    height: 70px;
     display: block;
     margin-bottom: 7px;
     background: #ddd url(http://webdesignerwall.com/demo/scroll-to-top/up-arrow.png) no-repeat center center;
