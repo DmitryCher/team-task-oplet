@@ -733,3 +733,15 @@ article.contacts {
     text-decoration-color: red;
     transition-duration: 0.5s;
 }
+
+/*Hostel*/
+.main_font{
+    text-align: center;  
+    color: #4e3f76;  
+   }
+   .align{
+       text-align: center;
+   }
+   .align2{
+       text-align: left;
+   }
