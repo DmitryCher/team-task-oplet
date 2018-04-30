@@ -746,5 +746,6 @@ article.contacts {
        text-align: left;
    }
    .fotohost{
-       width: 100%;
+    width: 330px;
+    height: 250px;
    }
