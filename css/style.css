@@ -725,7 +725,7 @@ article.contacts {
 }
 
 .importInfo li a {
-    color: green;
+    color: black;
 }
 
 .importInfo li a:hover {
@@ -734,18 +734,23 @@ article.contacts {
     transition-duration: 0.5s;
 }
 
+
 /*Hostel*/
-.main_font{
-    text-align: center;  
-    color: #4e3f76;  
-   }
-   .align{
-       text-align: center;
-   }
-   .align2{
-       text-align: left;
-   }
-   .fotohost{
+
+.main_font {
+    text-align: center;
+    color: #4e3f76;
+}
+
+.align {
+    text-align: center;
+}
+
+.align2 {
+    text-align: left;
+}
+
+.fotohost {
     width: 330px;
     height: 250px;
-   }
+}
